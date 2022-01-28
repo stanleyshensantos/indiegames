@@ -1,87 +1,119 @@
-.cabecalho{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0 2%;
-	background: #1C1C1C;
+body{
+	background: #121212;
 }
-html,body{
-    overflow: hidden;
-    /*serve para deixar a pagina sem scroll
-     overflow-y: hidden;
-     overflow-x: hidden;*/
+
+.cabecalho {
+	background:#2A2A2A;;
+	padding: 20px 0;
 }
-header{
-    height: 125px;	
-}
-.logo{
+.logo-pagina{
     width: 50%;
 }
-.banner{
-	width: 100%;
-}
-.menu{
-    padding-top: 45px;
-    width: 50%;
-    text-align: right;
-}
-.menu a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
-	font-size: 20px;
-}
 
-.social-media{
-    position: absolute;
-    right: 510px;
-    top: 200px;
-}
-.social-media img{
-    display: block;
-    width: 20px;
-    margin: 20px 0;
-	padding: 20px 20px;
-}
-
-
-
-/*.cabecalho-navegacao{
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 1280px;
+.cabecalho-navegacao {
+	position: relative;
+	width: 940px;
 	margin: 0 auto;
-	padding: 0 2%;
-}
-html, body{
-	height: 100%;
-	overflow: hidden;
-}
-.cabecalho{
-	height: 200px;
-    padding: 20px 0;
-}
-.corpo-pagina{
-    background: #1C1C1C;
-}
-.titulo-logo{
-	width: 30%;
-}
-.barra-navegacao{
-	padding-top: 30px;
-    width: 50%;
-    text-align: right;
 	
 }
-.barra-navegacao a{
+.navegacao {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	
+}
+
+.navegacao li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.navegacao a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 21px;
 	text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
-	color: azure;
 }
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
+
+
+
+.banner {
+	width:100%;
 }
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	color: #FFFFFF;
+}
+
+.principal {
+	padding: 3em 0;
+	color: #FFFFFF;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	
+	margin: 0 0 1em;
+}
+
+
+.game-dandara {
+	width: 500px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.secao-dead {
+	padding: 3em 0;	
+}
+.secao-dead p{
+	color: #FFFFFF;
+}
+
+.game-dead-imagem {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.secao-dead p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.secao-master {
+	padding: 3em 0;
+	
+}
+
+.conteudo-master {
+	width: 640px;
+	margin: 0 auto;
+}
+
+
+.imagem-master {
+	width: 100%;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+footer {
+	text-align: center;
+	background: url("../img/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	
+	font-size: 13px;
+	margin: 20px 0 0;
+	color: #FFFFFF;
+}
+
+
 

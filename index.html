@@ -4,8 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="short icon" href="img/logo.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
@@ -14,24 +12,61 @@
         
     </head>
     <body>
-    <header>
-        <div class="cabecalho">
-            <div class="logo"> <img src="./img/logo.png" alt=""></div><!--logo-->
-            <div class="menu"> 
-                <a href="#">Home</a>
-                <a href="#">Noticias</a>
-                <a href="#">Detonado</a>
-                <a href="#">Contato</a>
-            </div><!--menu-->
-        </div><!--center--> 
-    </header>
-            <img src="./img/celeste.jpg" alt="" class="banner">
-        
-    </section>
-    <footer>
-            <a href=""><img src="./img/facebook.png" alt=""></a>
-            <a href=""><img src="./img/twitter.png" alt=""></a>
-            <a href=""><img src="./img/instagram.png" alt=""></a>
-    </footer>  
-    </body>
+		<header class="cabecalho">
+			<div class="cabecalho-navegacao">
+				<h1 class="logo-pagina"><img src="img/logo.png"></h1>
+
+				<nav class="navegacao">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Noticias</a></li>
+						<li><a href="#">Detonados</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<img class="banner" src="./img/celeste.jpg" alt="sobre o banner da">
+
+		
+
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Indie Games Classico</h2>
+
+				<img class="game-dandara" src="./img/dandara3.jpg" alt="Sobre jogo dandara">
+		 
+				<p> ipsum dolor sit amet, consectetur adipiscing el t. Integer ultricies massa quis odio blandit, id tincidunt ipsum vestibulum. 
+                Quisque erat erat, aliquam id iaculis at, convallis eu metus.
+                 Curabitur imperdiet a nunc vel pretium. Cras egestas sit amet turpis eget vehicula. Vivamus volutpat, urna a scelerisque mattis, leo feli
+                 s bibendum orci, in iaculis tellus dolor sed enim. Sed faucibus, urna eu consectetur fringilla, felis mi interdum lorem, id ornare 
+                 quam purus ut nunc. Suspendisse cursus condimentum tristique. 
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis enim turpis, at porttitor augue consequat id. Aenean eu ligula eu odio ullamcorper volutpat quis nec purus.
+                </p>
+			</section>
+
+			<section class="secao-dead">
+				<h3 class="titulo-principal">Dead Cells</h3>
+				<p>psum dolor sit amet, consectetur adipiscing el t. Integer ultricies massa quis odio blandit, id tincidunt ipsum vestibulum. 
+					Quisque erat erat, aliquam id iaculis at, convallis eu metus.</p>
+
+				<div class="game-dead-imagem">
+                    <img class="game-dead" src="./img/dead.jpg" alt="Sobre jogo dead">
+				</div>
+			</section>
+
+			<section class="secao-master">
+				<h3 class="titulo-principal">Master of Anima</h3>
+
+				<div class="conteudo-master">
+					<img src="./img/master2.png" class="imagem-master">
+				</div>
+
+			</section>
+		</main>
+
+		<footer>
+			
+			<p class="copyright">&copy; Copyright Indie Games - 2022</p>
+		</footer>
+	</body>
 </html>
